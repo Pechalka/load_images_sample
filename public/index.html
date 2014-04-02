@@ -10,7 +10,10 @@
     	<div data-bind="foreach : images" id="container">
 	    	
 	    	<div class="box">
-	    		<img data-bind="attr : { src : $data }" alt="random image">
+
+	    		<a href="#" data-bind="style : { backgroundImage : $data }">1</a>
+	    	<!-- 	<img data-bind="attr : { src : $data }" alt="random image">
+	    	 -->
 	    	</div>
 
     	</div>
